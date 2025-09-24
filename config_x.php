@@ -1,0 +1,13 @@
+$imapServerAddress = 'mail.cock.li';
+$imapPort = 143;
+$useSendmail = false;
+$smtpServerAddress = 'mail.cock.li';
+$smtpPort = 587;
+$smtp_auth_mech = 'plain';
+$imap_auth_mech = 'plain';
+$smtp_sitewide_user = '';
+$smtp_sitewide_pass = '';
+$use_imap_tls = 2;
+$use_smtp_tls = 2;
+$data_dir = '/squirrelmail/data/';
+$attachment_dir = '/squirrelmail/attach/';
