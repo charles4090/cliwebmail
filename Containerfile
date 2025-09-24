@@ -19,4 +19,4 @@ RUN cat /squirrelmail/config/config_x.php >> /squirrelmail/config/config.php
 
 VOLUME ["/squirrelmail/data", "/squirrelmail/attach"]
 
-ENTRYPOINT ["/usr/bin/env", "php", "-S", "0.0.0.0:80", "-t", "/squirrelmail"]
+ENTRYPOINT ["/usr/bin/env", "php", "-S", "0.0.0.0:10000", "-t", "/squirrelmail"]
